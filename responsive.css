@@ -95,4 +95,14 @@
     .gamer-text h1 {
         font-size: 25px;
     }
+
+    /* funny video section */
+    .video-content {
+        flex-direction: column;
+    }
+
+    .video-card {
+        margin-bottom: 40px
+    }
+
 }

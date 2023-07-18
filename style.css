@@ -127,6 +127,7 @@ ul li a {
 
 /* gamer section */
 .gamer {
+    margin-bottom: 100px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 50px 0;
 
@@ -188,4 +189,53 @@ ul li a {
     display: block;
     font-weight: 400;
     font-size: 15px;
+}
+
+/* funny video section */
+.video {
+    margin-bottom: 100px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title h1 {
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.title h1 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title p {
+    color: #534C64;
+    text-align: center;
+    font-size: 16px;
+}
+
+.video-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.video-card {
+    flex-basis: 22%;
+}
+
+.video-card img {
+    width: 100%;
+}
+
+.video-card p {
+    color: #534C64;
+    font-size: 13px;
+    margin-top: 5px;
 }
