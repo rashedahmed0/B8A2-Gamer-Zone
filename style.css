@@ -75,3 +75,52 @@ ul li a {
 .follow .fa-brands {
     margin-left: 8px;
 }
+
+/* banner section */
+.banner {
+    background-image: url(./images/Group14.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text {
+
+    flex-basis: 45%;
+}
+
+.banner-text h2 {
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.banner-text h1 {
+    font-size: 74px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-text p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.banner-img {
+    flex-basis: 45%;
+}
+
+.banner-img img {
+    width: 100%;
+}

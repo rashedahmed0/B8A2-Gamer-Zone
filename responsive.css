@@ -38,4 +38,40 @@
 
 
     }
+
+    .banner-content {
+        flex-direction: column-reverse;
+    }
+
+    .banner {
+        background-image: none;
+        text-align: center;
+    }
+
+    .banner-text {
+
+        padding: 20px 48px;
+        margin-top: 20px;
+        background-image: url(./images/Group14.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .banner-text h2 {
+
+        font-size: 20px;
+
+    }
+
+    .banner-text h1 {
+        font-size: 50px;
+
+    }
+
+    .banner-text p {
+
+        font-size: 14px;
+
+    }
 }
