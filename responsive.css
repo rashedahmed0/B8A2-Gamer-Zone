@@ -1,4 +1,7 @@
 @media (max-width:576px) {
+
+
+    /* header section */
     nav {
         flex-direction: column;
     }
@@ -39,6 +42,9 @@
 
     }
 
+
+
+    /* banner section */
     .banner-content {
         flex-direction: column-reverse;
     }
@@ -73,5 +79,20 @@
 
         font-size: 14px;
 
+    }
+
+
+    /* gamer section */
+    .gamer-content {
+        flex-direction: column-reverse;
+
+    }
+
+    .gamer-text {
+        text-align: center;
+    }
+
+    .gamer-text h1 {
+        font-size: 25px;
     }
 }
