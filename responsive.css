@@ -1,0 +1,41 @@
+@media (max-width:576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    ul li:last-child {
+        display: inline-block;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    ul li {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+
+        width: 70%;
+
+    }
+
+    .glogo {
+        text-align: right;
+        margin-bottom: 20px;
+    }
+
+    .glogo img {
+
+        width: 85%;
+    }
+
+    .logo h1 {
+        margin-top: -24px;
+        font-size: 35px;
+
+
+
+    }
+}
