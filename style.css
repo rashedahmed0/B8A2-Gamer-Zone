@@ -154,7 +154,7 @@ ul li a {
 
 .gamer-text h1 {
 
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
@@ -164,7 +164,7 @@ ul li a {
 .gamer-text p {
     color: #534C64;
 
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     padding: 8px 0;
@@ -183,7 +183,9 @@ ul li a {
     padding: 21px 0;
 }
 
-.gamer-text h3 {}
+.gamer-text h3 {
+    font-size: 19px;
+}
 
 .gamer-text h3 span {
     display: block;
@@ -238,4 +240,59 @@ ul li a {
     color: #534C64;
     font-size: 13px;
     margin-top: 5px;
+}
+
+
+/* play instantly section */
+.play {
+    margin-bottom: 100px;
+}
+
+.play-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-text {
+    flex-basis: 40%;
+    text-align: right;
+}
+
+.play-text h1 {
+    margin-bottom: 11px;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.play-text h1 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-text p {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.play-img {
+    flex-basis: 45%;
+}
+
+
+
+.main-img img {
+    width: 95%;
+    position: relative;
+}
+
+.second-img {}
+
+.second-img img {
+    position: absolute;
+    width: 14%;
+    margin-top: -100px;
+    margin-left: -75px;
 }

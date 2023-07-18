@@ -105,4 +105,35 @@
         margin-bottom: 40px
     }
 
+    /* play instantly  */
+    .play-content {
+        flex-direction: column;
+    }
+
+    .play-text {
+
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .play-img {
+        flex-basis: 45%;
+    }
+
+    .main-img {
+        text-align: right;
+    }
+
+    .main-img img {
+        width: 80%;
+    }
+
+    .second-img {}
+
+    .second-img img {
+        width: 30%;
+        margin-top: -90px;
+        margin-left: 0px;
+    }
+
 }
