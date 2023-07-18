@@ -125,6 +125,24 @@ ul li a {
     width: 100%;
 }
 
+.banner-text button {}
+
+.btn9 {
+    border: none;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 10px 30px;
+    color: white;
+}
+
+.btn8 {
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 10px 30px;
+    color: white;
+}
+
 /* gamer section */
 .gamer {
     margin-bottom: 100px;
@@ -229,7 +247,19 @@ ul li a {
 }
 
 .video-card {
+
     flex-basis: 22%;
+
+
+}
+
+.video-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-img:hover .layer {
+    right: 0;
 }
 
 .video-card img {
@@ -242,10 +272,47 @@ ul li a {
     margin-top: 5px;
 }
 
+.layer .fa-play {
+    background-color: white;
+    border-radius: 50%;
+    height: 23px;
+    width: 24px;
+    margin: auto;
+    padding: 7px 4px 4px 7px;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+
+
+.layer {
+    border-radius: 9px;
+    width: 100%;
+    height: 56%;
+    position: absolute;
+    top: 0;
+    right: 200%;
+    background-color: rgba(0, 0, 0, 0.522);
+    text-align: center;
+    padding-top: 50%;
+    transition: 0.6s;
+
+}
+
+.layer:hover {}
+
+
+.layer h3 {
+    margin: 0 19%;
+    color: #F948B2;
+    font-size: 16px;
+}
+
 
 /* play instantly section */
 .play {
-    margin-bottom: 100px;
+    margin-bottom: 13%;
 }
 
 .play-content {
@@ -295,4 +362,143 @@ ul li a {
     width: 14%;
     margin-top: -100px;
     margin-left: -75px;
+}
+
+
+/* small game section */
+.small-game {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+/* .samll-game-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+
+} */
+.samll-game-content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+
+
+
+.small-game-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 6px 10px;
+    transition: 0.5s;
+    border: 2px solid white;
+
+}
+
+.small-game-card:hover {
+
+    border: 2px solid #FF42A5;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.small-game-card img {
+    width: 40px;
+
+}
+
+.small-game-card p {
+    margin-left: 4px;
+
+
+}
+
+.L4 {
+    border: 1px solid;
+}
+
+
+/* footer section  */
+footer {
+    background: #0B0223;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.logo1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.glogo1 {}
+
+.glogo1 img {
+    /* width: 100%; */
+}
+
+.logo1 h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-link {
+    margin: 20px 0;
+}
+
+.footer-link ul {
+    justify-content: center;
+}
+
+.footer-link ul li {}
+
+.footer-link ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+.social .fa-brands {
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+
+
+.condition {
+    margin-bottom: 20px;
+}
+
+.condition ul {
+    justify-content: center;
+}
+
+.condition ul li {}
+
+.condition ul li a {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
 }
