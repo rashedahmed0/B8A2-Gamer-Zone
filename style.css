@@ -390,7 +390,6 @@ ul li a {
 
 .small-game-card {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     margin-bottom: 30px;
     border-radius: 30px;
