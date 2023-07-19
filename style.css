@@ -213,7 +213,7 @@ ul li a {
 
 /* funny video section */
 .video {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .title {
@@ -471,8 +471,15 @@ footer {
 }
 
 .social .fa-brands {
+    color: white;
     font-size: 25px;
     margin: 0 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.social .fa-brands:hover {
+    color: #F948B2;
 }
 
 
