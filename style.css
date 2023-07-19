@@ -367,23 +367,21 @@ ul li a {
 
 /* small game section */
 .small-game {
-    margin-top: 100px;
-    margin-bottom: 100px;
-
+    margin-top: 75px;
+    margin-bottom: 40px;
 }
 
-/* .samll-game-content {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: center;
-
-} */
 .samll-game-content {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.mobile-laptop-version {
+    display: none;
+}
+
+.dextop-version {}
 
 
 
