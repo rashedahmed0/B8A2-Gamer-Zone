@@ -1,4 +1,4 @@
-@media (max-width:576px) {
+@media (max-width:576px) and (min-width: 320px) {
 
 
     /* header section */
@@ -203,6 +203,11 @@
     .social {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .social .fa-brands {
+        margin-bottom: 20px;
+        font-size: 19px;
     }
 
 
@@ -420,10 +425,14 @@
         font-size: 11px;
     }
 
-    .social {
+    /* .social {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
 
+    } */
+
+    .social .fa-brands {
+        font-size: 19px;
     }
 
 
