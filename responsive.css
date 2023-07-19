@@ -200,10 +200,19 @@
         border: 1px solid white;
     }
 
+    .social {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 
 }
 
 @media (max-width: 320px) {
+    .social {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
     .small-game-card img {
         width: 20px;
@@ -241,163 +250,180 @@
         margin-top: 75px;
         margin-bottom: 40px;
     }
-}
-
-@media (min-width: 576px) and (max-width: 770px) {
-    .container {
-        width: 70%;
-        margin: auto;
-    }
-
-    /* header section */
-    ul li a {
-        font-size: 12px;
-    }
-
-    ul li:last-child {
-
-        padding: 8px 10px 8px 2px;
-
-    }
-
-    .logo {
-        display: flex;
-        align-items: center;
-        width: 26%;
-    }
-
-    .logo h1 {
-        font-size: 30px;
-
-    }
-
-    /* banner section */
-    .banner-text h2 {
-        font-size: 20px;
-
-    }
-
-    .banner-text h1 {
-        font-size: 45px;
-
-    }
-
-    .banner-text p {
-
-        font-size: 11px;
-
-    }
-
-    .btn8 {
-        padding: 5px 16px;
-        font-size: 11px;
-    }
-
-    .btn9 {
-        padding: 5px 16px;
-        font-size: 11px;
-    }
-
-    /* game section */
-    .gamer-text h1 {
-        font-size: 30px;
-
-    }
-
-    .gamer-text p {
-        font-size: 11px;
-
-    }
-
-    .gamer-text a {
-        font-size: 11px;
-        padding: 5px 14px;
-    }
-
-    .gamer-text h3 {
-        font-size: 15px;
-    }
-
-    .gamer-text h3 span {
-
-        font-size: 13px;
-    }
-
-
-    /* video section */
-    .title h1 {
-
-        font-size: 30px;
-
-    }
-
-    .title p {
-        font-size: 13px;
-    }
-
-    .video-card p {
-
-        font-size: 11px;
-
-    }
-
-    /* play section */
-    .play-text h1 {
-        font-size: 30px;
-
-    }
-
-    .play-text p {
-
-        font-size: 12px;
-
-    }
-
-    .second-img img {
-
-        width: 12%;
-        margin-top: -87px;
-        margin-left: -47px;
-    }
-
-
-
-    .samll-game-content {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .small-game {
-        margin-top: 75px;
-        margin-bottom: 40px;
-    }
-
-
-    /* footer section  */
-    .glogo1 img {
-        width: 67%;
-    }
-
-    .logo1 h1 {
-        color: #fff;
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    .footer-link ul li a {
-        font-size: 13px;
-    }
 
     .social .fa-brands {
-        font-size: 15px;
-
+        margin-bottom: 20px;
+        font-size: 19px;
     }
 
-    .condition ul li a {
-        font-size: 11px;
-    }
+    @media (min-width: 576px) and (max-width: 770px) {
+        .container {
+            width: 70%;
+            margin: auto;
+        }
 
-    footer p {
-        font-size: 11px;
+        .social .fa-brands {
+            margin-bottom: 20px;
+            font-size: 19px;
+        }
+
+        /* header section */
+        ul li a {
+            font-size: 12px;
+        }
+
+        ul li:last-child {
+
+            padding: 8px 10px 8px 2px;
+
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            width: 26%;
+        }
+
+        .logo h1 {
+            font-size: 30px;
+
+        }
+
+        /* banner section */
+        .banner-text h2 {
+            font-size: 20px;
+
+        }
+
+        .banner-text h1 {
+            font-size: 45px;
+
+        }
+
+        .banner-text p {
+
+            font-size: 11px;
+
+        }
+
+        .btn8 {
+            padding: 5px 16px;
+            font-size: 11px;
+        }
+
+        .btn9 {
+            padding: 5px 16px;
+            font-size: 11px;
+        }
+
+        /* game section */
+        .gamer-text h1 {
+            font-size: 30px;
+
+        }
+
+        .gamer-text p {
+            font-size: 11px;
+
+        }
+
+        .gamer-text a {
+            font-size: 11px;
+            padding: 5px 14px;
+        }
+
+        .gamer-text h3 {
+            font-size: 15px;
+        }
+
+        .gamer-text h3 span {
+
+            font-size: 13px;
+        }
+
+
+        /* video section */
+        .title h1 {
+
+            font-size: 30px;
+
+        }
+
+        .title p {
+            font-size: 13px;
+        }
+
+        .video-card p {
+
+            font-size: 11px;
+
+        }
+
+        /* play section */
+        .play-text h1 {
+            font-size: 30px;
+
+        }
+
+        .play-text p {
+
+            font-size: 12px;
+
+        }
+
+        .second-img img {
+
+            width: 12%;
+            margin-top: -87px;
+            margin-left: -47px;
+        }
+
+
+
+        .samll-game-content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .small-game {
+            margin-top: 75px;
+            margin-bottom: 40px;
+        }
+
+
+        /* footer section  */
+        .glogo1 img {
+            width: 67%;
+        }
+
+        .logo1 h1 {
+            color: #fff;
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .footer-link ul li a {
+            font-size: 13px;
+        }
+
+        .social .fa-brands {
+            font-size: 15px;
+
+        }
+
+        .condition ul li a {
+            font-size: 11px;
+        }
+
+        footer p {
+            font-size: 11px;
+        }
+
+        .social {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+        }
+
+
     }
-}
