@@ -90,7 +90,7 @@ ul li a {
 }
 
 .banner-text {
-
+    text-align: left;
     flex-basis: 45%;
 }
 
@@ -114,7 +114,18 @@ ul li a {
     color: #534C64;
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 6px;
+    margin: 15px 0;
+
+
+}
+
+.instraction {
+    margin-bottom: 5px;
+}
+
+.instraction .fa-solid {
+    margin-right: 10px;
+    color: #8758F1;
 }
 
 .banner-img {
